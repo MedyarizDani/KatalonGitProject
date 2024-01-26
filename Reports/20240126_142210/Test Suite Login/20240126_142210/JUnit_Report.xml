@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Login" time="17.163" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Login" tests="1" failures="0" errors="0" time="17.163" skipped="0" timestamp="26-01-2024T14:22:15" hostname="mrdi_ - DHANIE-PC" id="Test Suites/Test Suite Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mrdi_\\git\\KatalonGitProject\\Reports\\20240126_142210\\Test Suite Login\\20240126_142210"/>
+         <property name="logFiles" value="C:\\Users\\mrdi_\\git\\KatalonGitProject\\Reports\\20240126_142210\\Test Suite Login\\20240126_142210\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mrdi_\\git\\KatalonGitProject\\Reports\\20240126_142210\\Test Suite Login\\20240126_142210\\1706253740473.png, C:\\Users\\mrdi_\\git\\KatalonGitProject\\Reports\\20240126_142210\\Test Suite Login\\20240126_142210\\1706253747277.png"/>
+         <property name="hostName" value="mrdi_ - DHANIE-PC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.82.1"/>
+         <property name="sessionId" value="b3c2784a476785418cda1121e967f1d6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/LoginTest" time="17.037" classname="Test Cases/LoginTest" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:22:15 - [TEST_CASE][PASSED] - Test Cases/LoginTest: Test Cases/LoginTest
+
+26-01-2024T14:22:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T14:22:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T14:22:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T14:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T14:22:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-01-2024T14:22:17 - [MESSAGE][PASSED] - Current window maximized
+
+26-01-2024T14:22:17 - [TEST_STEP][PASSED] - navigateToUrl("http://130.211.243.37:96/login"): Navigate to 'http://130.211.243.37:96/login' successfully
+
+26-01-2024T14:22:20 - [MESSAGE][PASSED] - Navigate to 'http://130.211.243.37:96/login' successfully
+
+26-01-2024T14:22:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+26-01-2024T14:22:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mrdi_\\git\\KatalonGitProject\\Reports\\20240126_142210\\Test Suite Login\\20240126_142210\\1706253740473.png]]
+
+26-01-2024T14:22:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+26-01-2024T14:22:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+26-01-2024T14:22:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login  Elearning CMS/input_email"), "admin@indocyber.com"): Text 'admin@indocyber.com' is set on object 'Object Repository/Page_Login  Elearning CMS/input_email'
+
+26-01-2024T14:22:26 - [MESSAGE][PASSED] - Text 'admin@indocyber.com' is set on object 'Object Repository/Page_Login  Elearning CMS/input_email'
+
+26-01-2024T14:22:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login  Elearning CMS/input_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_Login  Elearning CMS/input_password'
+
+26-01-2024T14:22:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Elearning CMS/input_password'
+
+26-01-2024T14:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login  Elearning CMS/inputrememberMe")): Object: 'Object Repository/Page_Login  Elearning CMS/inputrememberMe' is clicked on
+
+26-01-2024T14:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Elearning CMS/inputrememberMe' is clicked on
+
+26-01-2024T14:22:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+26-01-2024T14:22:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mrdi_\\git\\KatalonGitProject\\Reports\\20240126_142210\\Test Suite Login\\20240126_142210\\1706253747277.png]]
+
+26-01-2024T14:22:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+26-01-2024T14:22:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+26-01-2024T14:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login  Elearning CMS/button_Login")): Object: 'Object Repository/Page_Login  Elearning CMS/button_Login' is clicked on
+
+26-01-2024T14:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Elearning CMS/button_Login' is clicked on
+
+26-01-2024T14:22:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T14:22:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T14:22:15 - [TEST_SUITE][PASSED] - Test Suite Login: Test Cases/LoginTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
